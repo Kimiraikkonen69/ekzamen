@@ -45,8 +45,6 @@ header {
 .search form {
   width: 650px;
   height: 60px;
-  padding-top: 1px;
-  padding-bottom: 2px;
   background: white;
   margin-top: 50px;
   box-sizing: border-box;
@@ -70,7 +68,7 @@ header {
 #header_button {
   background: #5474fd;
   width: 145px;
-  height: 55px;
+  height: 56px;
   color: white;
   font-family: "Aleo", sans-serif;
   font-weight: 400;
