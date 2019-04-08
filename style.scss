@@ -1,0 +1,361 @@
+body {
+  color: white;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  background: url("media/header img.jpg") no-repeat;
+  background-size: cover;
+  height: 820px;
+}
+
+//font-family: 'Aleo', serif;
+//font-family: 'Josefin Sans', sans-serif;
+
+.inner {
+  width: 1110px;
+  margin: 0 auto;
+  position: relative;
+}
+.search {
+  position: relative;
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+.search h1 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 48px;
+  margin-top: 217px;
+}
+.search p {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+  letter-spacing: 4px;
+  margin-top: -21px;
+}
+.search h1 , p {
+}
+.search form {
+  width: 650px;
+  height: 60px;
+  padding-top: 1px;
+  padding-bottom: 2px;
+  background: white;
+  margin-top: 50px;
+  box-sizing: border-box;
+}
+.search form input {
+    border: none;
+    outline: none;
+    margin: 0;
+}
+#header_search {
+  width: 498px;
+  height: 57px;
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+}
+#header_button {
+  background: #5474fd ;
+  width: 145px;
+  height: 55px;
+  color: white;
+  font-family: 'Aleo', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+.scroll {
+  text-align: center;
+  margin-top: 100px;
+}
+.scroll span {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  display: inline-block;
+}
+nav {
+  background: #5474fd;
+  height: 80px;
+  width: 100%;
+  margin-top: 153px;
+}
+nav a {
+  text-decoration: none;
+  color: #ffffff;
+  font-family: 'Aleo', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  text-transform: uppercase;
+  line-height: 80px;
+}
+nav a {
+  margin-left: 40px;
+}
+nav a:nth-of-type(1) {
+  font-size: 24px;
+  margin-left: 0;
+}
+nav a:nth-of-type(2) {
+  margin-left: 425px;
+}
+.s1 {
+  background: url("media/section_1img.jpg") no-repeat;
+  background-size: cover;
+  height: 685px;
+}
+.first {
+  display: inline-block;
+  box-sizing: border-box;
+  position: absolute;
+  width: 541px;
+  top: 200px;
+  left: 40px;
+}
+.first p {
+  text-align: left;
+}
+.second {
+  display: inline-block;
+  box-sizing: border-box;
+  position: absolute;
+  width: 541px;
+  top: 121px;
+  left: 635px;
+}
+.second .img2 {
+  position: absolute;
+  left: 125px;
+}
+.first h2 {
+  font-family: "Aleo", sans-serif;
+  font-size: 36px;
+}
+.first p {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 16px;
+}
+#s1_button {
+  border: none;
+  outline: none;
+  background: #5474fd;
+  width: 225px;
+  height: 60px;
+  color: white;
+  font-family: 'Aleo', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  text-transform: uppercase;
+  margin-top: 50px;
+}
+.s2 {
+  background: #333333;
+  height: 338px;
+  position: relative;
+}
+.s2 .inner input {
+  display: none;
+}
+.shapes {
+  display: flex;
+  justify-content: center;
+  padding-top: 25px;
+}
+.s2 label {
+  position: absolute;
+  font-family: "Aleo", sans-serif;
+  font-size: 36px;
+}
+.s2 label span {
+  margin-left: -67px;
+}
+.s2 label:nth-of-type(1) {
+  top: 120px;
+  left: 120px;
+}
+.s2 label:nth-of-type(2) {
+  top: 120px;
+  left: 533px;
+}
+.s2 label:nth-of-type(3) {
+  top: 120px;
+  left: 932px;
+}
+.s3 {
+  background: url("media/s3img.jpg") no-repeat;
+  background-size: cover;
+  height: 700px;
+  padding-top: 230px;
+}
+.info {
+  background: rgba(9, 3, 3, 0.84);
+  width: 540px;
+  height: 370px;
+  box-sizing: border-box;
+  padding-left: 30px;
+  padding-right: 50px;
+  padding-top: 50px;
+}
+.info h3, p {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+}
+.info h2 {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+#s3_button {
+  border: none;
+  outline: none;
+  background: #5474fd;
+  width: 225px;
+  height: 60px;
+  color: white;
+  font-family: 'Aleo', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  text-transform: uppercase;
+  margin-top: 50px;
+}
+.s4 {
+  background: url("media/s4img.jpg") no-repeat;
+  background-size: cover;
+  height: 700px;
+  padding-top: 230px;
+}
+.s4 .info {
+  background: rgba(9, 3, 3, 0.84);
+  width: 540px;
+  height: 370px;
+  margin-left: 570px;
+  box-sizing: border-box;
+  padding-left: 30px;
+  padding-right: 50px;
+  padding-top: 50px;
+}
+#s4_button {
+  border: none;
+  outline: none;
+  background: #5474fd;
+  width: 225px;
+  height: 60px;
+  color: white;
+  font-family: 'Aleo', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  text-transform: uppercase;
+  margin-top: 50px;
+}
+.s5 {
+  background: url("media/s5img.jpg") no-repeat;
+  background-size: cover;
+  height: 731px;
+  font-size: 0;
+  padding-top: 115px;
+}
+.s5 h2 {
+  font-size: 36px;
+  font-family: "Aleo", sans-serif;
+  text-align: center;
+}
+.s5 h3 {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+.s5img {
+  margin-top: 95px;
+  float: left;
+}
+.s5text {
+  margin-top: 95px;
+  width: 665px;
+  height: 284px;
+  box-sizing: border-box;
+  background: #333333;
+  float: right;
+  padding-left: 65px;
+  padding-right: 50px;
+  padding-top: 17px;
+}
+.s5:before {
+  content: '';
+  display: block;
+  clear: both;
+}
+.s5:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+.s5text span {
+  color: #5474fd;
+  font-size: 28px;
+}
+.lab p {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 16px;
+  font-weight: lighter;
+}
+footer {
+  height: 270px;
+  background: #232323;
+  padding-top: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 0;
+
+}
+footer h3 {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 11px;
+}
+footer h4 {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 16px;
+  margin-top: -10px;
+  letter-spacing: 3px;
+}
+footer a {
+  margin-left: 40px;
+}
+footer a:nth-of-type(1) {
+  margin-left: 0;
+}
+input[type=button]:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+.scroll img:hover {
+  transform: scale(1.5);
+  cursor: pointer;
+}
+nav a:hover,
+nav a:focus {
+  text-decoration: underline;
+}
+.inner label:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+footer a img:hover {
+  transform: scale(1.2);
+}
